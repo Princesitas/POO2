@@ -1,9 +1,34 @@
+## Apuntes de programacion orientada a objetos
+https://aprendepython.es/core/modularity/oop/
+
+### Encapsulamiento
+
+Permite empaquetar el código dentro de una unidad (objeto) donde se puede determinar el ámbito de actuación.
+
+### Abstracción
+
+Permite generalizar los tipos de objetos a través de las clases y simplificar el programa.
+
+### Herencia
+
+Permite reutilizar código al poder heredar atributos y comportamientos de una clase a otra.
+
+### Polimorfismo
+
+Permite crear múltiples objetos a partir de una misma pieza flexible de código.
+
+
+![Alt text](https://aprendepython.es/_images/oop.jpg "Beneficios de la Programación Orientada a Objetos")
+
+Beneficios de la Programación Orientada a Objetos
+
 ## Apuntes de Markdown
 
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ### Diagram Class
 https://mermaid.js.org/syntax/classDiagram.html
+
 
 
 ---
