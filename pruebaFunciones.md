@@ -31,3 +31,8 @@ def tipicaFuncion(unpar:str, dospar:str)->None:
 tipicaFuncion(unpar=3, dospar=6)
 #unpar = 3
 #dospar = 6
+
+
+### Ejercicio 3
+def myDiv(id:str, *clas:str, contet:str)->str:
+    pass
