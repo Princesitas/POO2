@@ -35,4 +35,23 @@ tipicaFuncion(unpar=3, dospar=6)
 
 ### Ejercicio 3
 def myDiv(id:str, *clas:str, contet:str)->str:
-    pass
+    resultado = ""
+    resultado += '<div id="' + id + '
+
+    if len(clas) != 0:
+        resultado += 'class="'
+        for e in clas:
+            resultado += e +', '
+        
+        resultado += '\b\b"'
+
+    resultado += '>' + content + '</div>'
+
+    return resultado
+
+
+### Ejercicio 5
+
+def myScript(*src=str)->str:
+Función que tiene como entrada un número indeterminado de cadenas de caracteres
+y como salida de una cadena de caracteres. Probablemente transforma las entradas en la salida
