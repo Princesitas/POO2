@@ -26,7 +26,7 @@ class Date:
         return resultado
 
     @staticmethod
-    def days_in_month(month: int, year: int) -> int:
+    def days_in_month(self, month: int, year: int) -> int:
         days = [31, 28, 31, 30, 31, 31]
         if self.is_leap_year(year) and month == 2:
             return 29
