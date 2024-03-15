@@ -1,12 +1,10 @@
 class Transporte:
-    
-    def __init__(self, *, ruedas:int, asientos:int):
+    def __init__(self, *, ruedas:int, asientos:int) -> None:
         self.ruedas = ruedas
         self.asientos = asientos
-        
 
-    def desplazar(self, x:int, y:int) -> None:
-        print("Desplazando a:", x, y)
+    def desplazar(self, x:int, y:int = 0) -> None:
+        print("Desplazando a: ", x, y)
 
-    def informacion(ruedas:int, asientos:int):
-        print(ruedas, asientos)
+    def informacion(self) -> None:
+        print("Ruedas: ", self.ruedas, " Asientos: ", self.asientos)
